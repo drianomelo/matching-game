@@ -1,7 +1,9 @@
+import "./style.css";
+
 const CardGame = () => {
   return `
-        <article>
-            CardGame
+        <article class="card-game">
+            
         </article>
     `;
 };
