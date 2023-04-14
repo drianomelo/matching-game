@@ -1,4 +1,6 @@
 :root {
-  --clr-card-back: #e54d26;
-  --clr-background: #191825;
+  --clr-card-back: #e04d01;
+  --clr-card-front: #ff7700;
+  --clr-background: #251d3a;
+  --clr-white: #faf5e4;
 }
