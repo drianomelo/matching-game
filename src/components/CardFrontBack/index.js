@@ -5,7 +5,7 @@ const CardFrontBack = () => {
   return `
         <article class="card-front-back">
             ${CardGame()}
-            ${CardGame()}
+            ${CardGame("indiana", "paul george indiana")}
         </article>
     `;
 };
