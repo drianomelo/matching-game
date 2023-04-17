@@ -1,7 +1,17 @@
 .card-game {
   width: 130px;
   height: 160px;
-  background: url("../../images/bola.svg") no-repeat center var(--clr-card-back);
-  background-size: 50%;
+  background-color: var(--clr-card-back);
   border: 4px solid var(--clr-card-front);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-game img{
+  width: 50%;
+}
+
+.card-game:nth-child(2) img {
+  width: 100%;
 }
