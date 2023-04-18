@@ -2,5 +2,6 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  perspective: 400px;
+  gap: 1rem;
+  perspective: 600px;
 }
