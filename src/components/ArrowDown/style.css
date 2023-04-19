@@ -1,0 +1,13 @@
+.arrow-down {
+  position: absolute;
+  top: 5%;
+  transition: all 0.3s;
+}
+
+.right {
+  right: 34%;
+}
+
+.left {
+  left: 34%;
+}
