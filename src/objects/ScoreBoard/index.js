@@ -7,7 +7,7 @@ const ScoreBoard = () => {
   return `
     <header class="score-board">
         ${PlayerName("Player1")}
-        ${PlayerScore(2)}
+        ${PlayerScore(3)}
         ${VsPlayer()}
         ${PlayerScore(1)}
         ${PlayerName("Player2")}
