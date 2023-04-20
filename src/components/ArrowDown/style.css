@@ -1,13 +1,10 @@
 .arrow-down {
   position: absolute;
   top: 5%;
-  transition: all 0.3s;
+  transform: translateX(-42px);
+  transition: transform .3s ease-in-out;
 }
 
-.right {
-  right: 34%;
-}
-
-.left {
-  left: 34%;
+.arrow-down[data-player="2"] {
+  transform: translateX(42px);
 }
